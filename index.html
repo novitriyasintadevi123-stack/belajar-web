@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portofolio Raka Pratama — Frontend developer yang membuat pengalaman digital modern.">
+    <title>Raka Pratama — Frontend Developer</title>
+        <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="nav container">
+            <a class="logo" href="#beranda">raka<span>.</span></a>
+            <div class="nav-links" id="navLinks">
+                <a class="active" href="#beranda">Beranda</a>
+                <a href="#proyek">Proyek</a>
+                <a href="#tentang">Tentang</a>
+                <a href="#kontak">Kontak</a>
+            </div>
+            <div class="nav-actions">
+                <button class="theme-btn" id="themeBtn" aria-label="Ganti tema">☼</button>
+                <button class="menu-btn" id="menuBtn" aria-label="Buka menu">☰</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="beranda">
+            <div class="container hero-grid">
+                <div class="reveal">
+                    <div class="eyebrow">Available for freelance</div>
+                    <h1>Mengubah ide menjadi <em>digital.</em></h1>
+                    <p class="hero-copy">Halo, saya Raka — frontend developer yang senang merancang website cepat, fungsional, dan punya karakter.</p>
+                    <div class="hero-buttons">
+                        <a class="button button-primary" href="#proyek">Lihat proyek <span>↗</span></a>
+                        <a class="button button-link" href="#kontak">Hubungi saya <span>→</span></a>
+                    </div>
+                </div>
+                <div class="hero-visual reveal">
+                    <div class="portrait">
+                        <div class="portrait-label"><i class="online"></i> Jakarta, Indonesia</div>
+                    </div>
+                    <div class="floating-card"><strong>4+</strong><small>Tahun pengalaman</small></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="stats">
+            <div class="container stats-grid">
+                <div class="stat"><strong>24</strong><span>Proyek selesai</span></div>
+                <div class="stat"><strong>12</strong><span>Klien bahagia</span></div>
+                <div class="stat"><strong>04</strong><span>Tahun berkarya</span></div>
+                <div class="stat"><strong>∞</strong><span>Ide berikutnya</span></div>
+            </div>
+        </section>
+
+        <section class="section container" id="proyek">
+            <div class="section-heading reveal">
+                <div><div class="eyebrow">Selected work</div><h2>Beberapa karya<br>yang saya banggakan.</h2></div>
+                <p>Eksplorasi kecil saya dalam memecahkan masalah melalui desain dan teknologi.</p>
+            </div>
+            <div class="filters reveal">
+                <button class="filter active" data-filter="all">Semua</button>
+                <button class="filter" data-filter="web">Website</button>
+                <button class="filter" data-filter="app">Aplikasi</button>
+            </div>
+            <div class="projects-grid">
+                <article class="project reveal" data-category="web">
+                    <div class="project-image" data-number="01"><div class="mini-window"><div class="mini-bar"><i></i><i></i><i></i></div><div class="mini-lines"><b></b><span></span><span></span></div></div></div>
+                    <div class="project-info"><div><h3>Ruang Temu</h3><p>Branding · Web Design</p></div><span class="project-arrow">↗</span></div>
+                </article>
+                <article class="project reveal" data-category="app">
+                    <div class="project-image" data-number="02"><div class="mini-window"><div class="mini-bar"><i></i><i></i><i></i></div><div class="mini-lines"><b style="background:var(--purple)"></b><span></span><span></span></div></div></div>
+                    <div class="project-info"><div><h3>Fintrack</h3><p>Product Design · App</p></div><span class="project-arrow">↗</span></div>
+                </article>
+                <article class="project reveal" data-category="web">
+                    <div class="project-image" data-number="03"><div class="mini-window"><div class="mini-bar"><i></i><i></i><i></i></div><div class="mini-lines"><b style="background:#71e0bf"></b><span></span><span></span></div></div></div>
+                    <div class="project-info"><div><h3>Oase Studio</h3><p>Development · Website</p></div><span class="project-arrow">↗</span></div>
+                </article>
+                <article class="project reveal" data-category="app">
+                    <div class="project-image" data-number="04"><div class="mini-window"><div class="mini-bar"><i></i><i></i><i></i></div><div class="mini-lines"><b style="background:#ffac76"></b><span></span><span></span></div></div></div>
+                    <div class="project-info"><div><h3>Jelajah</h3><p>UX Research · App</p></div><span class="project-arrow">↗</span></div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section about" id="tentang">
+            <div class="container about-grid">
+                <div class="about-card reveal"><span class="quote">“</span><p>Desain yang baik bukan hanya terlihat indah, tapi terasa tepat saat digunakan.</p><span class="signature">— Raka Pratama</span></div>
+                <div class="about-copy reveal"><div class="eyebrow">A little about me</div><h2>Memadukan logika<br>dengan rasa.</h2><p>Saya percaya produk digital yang hebat lahir dari kolaborasi yang baik. Saat tidak sedang menulis kode, saya biasanya mencari inspirasi dari arsitektur, musik, dan secangkir kopi.</p><div class="skills"><span class="skill">HTML / CSS</span><span class="skill">JavaScript</span><span class="skill">React</span><span class="skill">Figma</span><span class="skill">Motion</span></div></div>
+            </div>
+        </section>
+
+        <section class="section contact container" id="kontak">
+            <div class="eyebrow" style="justify-content:center">Have a project in mind?</div>
+            <h2 class="reveal">Mari buat sesuatu yang<br><em style="color:var(--lime);font-style:normal">berarti bersama.</em></h2>
+            <p class="reveal">Ceritakan ide atau tantangan yang sedang Anda hadapi. Saya akan membalas secepatnya.</p>
+            <a class="button button-primary reveal" href="mailto:halo@raka.dev">halo@raka.dev <span>↗</span></a>
+        </section>
+    </main>
+
+    <footer><div class="container footer-inner"><span>© 2026 Raka Pratama. Dibuat dengan niat baik.</span><div class="socials"><a href="#">Instagram</a><a href="#">LinkedIn</a><a href="#">GitHub</a></div></div></footer>
+        <script src="script.js"></script>
+</body>
+</html>
